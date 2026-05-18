@@ -1,0 +1,14 @@
+print("____simple chat application____")
+while True:
+    message=input("you: ")
+    if message.lower()=="bye":
+        print("chatbot: bye! have a nice day!")
+        break
+    elif message.lower()=="hello":
+        print("chatbot: hello! how can i help you?")
+    elif message.lower()=="how are you?":
+        print("chatbot: i'm fine, thank you!")
+    elif message.lower()=="what is your name":
+        print("chatbot: my name is chatbot!")
+    else:
+        print("chatbox:i dont umderstand")
